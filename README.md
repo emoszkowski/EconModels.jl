@@ -1,4 +1,4 @@
-# ModelInterface.jl
+# Models.jl
 
 This is a package that defines an implicit interface for mathematical
 models. It sets up an infrastructure for handling computational
@@ -7,7 +7,7 @@ functionality and create model subtypes. The code is excerpted
 from [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl) for more general
 use.
 
-`ModelInterface.jl` provides I/O methods and a mechanism for handling
+`Models.jl` provides I/O methods and a mechanism for handling
 computational settings for the `ModelInterface` abstract type.
 See
 [here](http://frbny-dsge.github.io/DSGE.jl/latest/implementation_details.html#Model-Settings-1) for
@@ -19,10 +19,10 @@ a description of I/O.
 
 ## Usage
 
-The user should import ModelInterface and define a concrete subtype:
+The user should import `Models` and define a concrete subtype:
 
 ```julia
-import ModelInterface
+import Models
 type MyModel <: ModelInterface
    ...
 end

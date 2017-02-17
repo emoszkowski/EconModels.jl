@@ -1,11 +1,11 @@
-# Models.jl
+# EconModels.jl
 
-This is a package that defines an implicit interface for mathematical
-models. It sets up an infrastructure for handling computational
-settings and I/O. Users can import this package to extend its
-functionality and create model subtypes. The code is excerpted
-from [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl) for more general
-use.
+This is a package that defines an implicit interface for economic and
+statistical models. No particular mathematical setup is required; rather, the package sets up an infrastructure for handling
+computational settings and I/O - problems that are common when trying out various models. Users can import this package to
+extend its functionality and create model subtypes. The code is
+excerpted from [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl) for
+more general use.
 
 `Models.jl` provides I/O methods and a mechanism for handling
 computational settings for the `ModelInterface` abstract type.

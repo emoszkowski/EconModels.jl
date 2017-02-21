@@ -18,5 +18,6 @@ export
 
 include("interface.jl")
 include("settings.jl")
+include("data_utils.jl")
 
 end # module

@@ -1,4 +1,4 @@
-module Models
+module EconModels
 
 const VERBOSITY    = Dict(:none => 0, :low => 1, :high => 2)
 const DATE_FORMAT  = "yymmdd"
@@ -8,7 +8,7 @@ export
 
     # interface.jl
     ModelInterface, description, spec, subspec,
-    dataroot, saveroot, inpath, workpath, rawpath, tablespath, figurespath, logpath,
+    dataroot, saveroot, inpath, workpath, rawpath, tablespath, figurespath, logpath, filestring,
 
     # settings.jl
     Setting, get_setting, default_settings!, default_test_settings!,

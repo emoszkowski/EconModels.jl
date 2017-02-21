@@ -42,5 +42,9 @@ The following settings are expected to exist in the `settings` dictionary:
 
 - `data_vintage`: a datestring in format "yymmdd"
 - `use_parallel_workers`: a boolean indicating whether to parallelize or not
+- `saveroot`: a filepath to the location where output directory tree should begin.
+- `dataroot`: a filepath to the location where input data can be read from
+
+
 
 They can be added to the the model object during or after construction.
